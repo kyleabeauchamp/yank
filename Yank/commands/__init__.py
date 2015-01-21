@@ -5,12 +5,12 @@ YANK cli commands.
 
 """
 
-import help
-import cite
-import selftest
-import platforms
-import setup
-import run
-import status
-import analyze
-import cleanup
+from . import help
+from . import cite
+from . import selftest
+from . import platforms
+from . import setup
+from . import run
+from . import status
+from . import analyze
+from . import cleanup
